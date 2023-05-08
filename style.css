@@ -1,0 +1,76 @@
+body {
+  background-color: pink;
+  font-family: 'Courier New', Courier, monospace;
+  font-size: medium;
+}
+
+h1 {
+  color: rgb(3, 1, 4);
+  font-size: 25px;
+  line-height: 2px;
+  font-family: 'Courier New', Courier, monospace;
+}
+
+img {
+  width: 200px;
+}
+
+a:hover {
+  background-color: gold;
+}
+
+a {
+  text-decoration: none;
+  text-align: center;
+}
+
+div {
+  background-color: beige;
+  margin: 30px auto;
+  border-radius: 15px;
+  box-shadow: 3px 3px 30px rgb(136, 10, 199);
+  text-align: center;
+  padding: 30px;
+  width: 500px;
+}
+
+.newdesign {
+  background-color: blueviolet;
+  font-size: 20px;
+  font-weight: bold;
+  width: 700px;
+}
+
+#button {
+  color: pink;
+  background-color: azure;
+  width: 120px;
+  text-align: center;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  border-radius: 10px;
+  padding: 10px;
+  box-shadow: 3px 3px 30px rgb(242, 236, 236);
+}
+
+
+
+@media (max-width: 960px) {
+  /* Pour un écran < 960px, cette classe CSS s'applique */
+  .container {
+    width: 700px;
+  }
+}
+
+@media (max-width: 720px) {
+  /* Pour un écran < 720px, cette classe CSS s'applique */
+  .container {
+    width: 500px;
+  }
+}
+
+@media (max-width: 540px) {
+  /* Pour un écran < 540px, cette classe CSS s'applique */
+  .container {
+    width: 300px;
+  }
+}
